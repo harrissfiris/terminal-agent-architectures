@@ -1,0 +1,28 @@
+{
+  "name": "probe_hard_20",
+  "description": "Boundary probe: 20 tasks randomly sampled from the 53 TerminalBench \"hard\" tasks with feasibility_risk != high. Selection is reproducible: random.Random(20260807).sample(sorted(pool), 20). Baseline only -- this is a boundary demonstration, NOT part of the architecture grid.",
+  "seed": 20260807,
+  "pool_size": 53,
+  "tasks": [
+    "cancel-async-tasks",
+    "causal-inference-r",
+    "chem-property-targeting",
+    "chem-rf",
+    "extract-moves-from-video",
+    "fix-ocaml-gc",
+    "install-windows-xp",
+    "llm-inference-batching-scheduler",
+    "magsac-install",
+    "make-mips-interpreter",
+    "organization-json-generator",
+    "parallel-particle-simulator",
+    "password-recovery",
+    "play-zork-easy",
+    "port-compressor",
+    "rare-mineral-allocation",
+    "stable-parallel-kmeans",
+    "torch-pipeline-parallelism",
+    "train-fasttext",
+    "video-processing"
+  ]
+}

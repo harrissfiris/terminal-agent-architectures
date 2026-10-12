@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv
+venv/
+env/
+ENV/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Runtime symlinks created by scripts/switch_stage.sh (point into systems/)
+/agent
+/llm
+/terminal
+/config.py
+/tbench_agent_v2.py
+
+# Benchmark outputs
+runs/
+results/
+*.log
+.env
+/model_profiles.py

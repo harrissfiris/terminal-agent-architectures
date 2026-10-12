@@ -1,0 +1,28 @@
+{
+  "name": "probe_medium_20",
+  "description": "Boundary probe: 20 tasks randomly sampled from the 116 TerminalBench \"medium\" tasks with feasibility_risk != high. Selection is reproducible: random.Random(20260807).sample(sorted(pool), 20). Baseline only -- this is a boundary demonstration, NOT part of the architecture grid.",
+  "seed": 20260807,
+  "pool_size": 116,
+  "tasks": [
+    "blind-maze-explorer-algorithm",
+    "build-cython-ext",
+    "build-linux-kernel-qemu",
+    "build-pmars",
+    "dna-insert",
+    "fmri-encoding-r",
+    "gcode-to-text",
+    "git-leak-recovery",
+    "home-server-https",
+    "largest-eigenval",
+    "mailman",
+    "mteb-eval",
+    "optimal-transport",
+    "protocol-analysis-rs",
+    "regex-log",
+    "rstan-to-pystan",
+    "spring-messaging-vul",
+    "train-bpe-tokenizer",
+    "wasm-pipeline",
+    "weighted-max-sat-solver"
+  ]
+}

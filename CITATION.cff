@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the thesis below."
+title: "Agent Architectures for LLM-Based Terminal Agents: A Comparative Study Across Model Capability"
+type: thesis
+authors:
+  - family-names: Sfyris
+    given-names: Charalampos Ioannis
+year: 2026
+institution:
+  name: "National Technical University of Athens, School of Electrical and Computer Engineering"
+url: "https://github.com/harrissfiris/terminal-agent-architectures"
